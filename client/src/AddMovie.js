@@ -29,7 +29,7 @@ class AddMovie extends Component {
             movie_name: this.state.movie_name,
             genre: this.state.genre
         };
-        return fetch('/listing', {
+        return fetch('/add', {
             method: 'POST',
             headers: {
                 'Accept': 'application/json',
